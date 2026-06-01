@@ -10,32 +10,32 @@ const Skills = () => {
       title: 'Frontend',
       icon: <FaReact />,
       skills: [
-        { name: 'React.js', icon: <FaReact />, level: 90 },
-        { name: 'HTML5', icon: <FaHtml5 />, level: 95 },
-        { name: 'CSS3', icon: <FaCss3Alt />, level: 90 },
-        { name: 'JavaScript', icon: <FaJs />, level: 88 },
-        { name: 'Tailwind CSS', icon: <SiTailwindcss />, level: 85 },
+        { name: 'React.js', icon: <FaReact /> },
+        { name: 'HTML5', icon: <FaHtml5 /> },
+        { name: 'CSS3', icon: <FaCss3Alt /> },
+        { name: 'JavaScript', icon: <FaJs /> },
+        { name: 'Tailwind CSS', icon: <SiTailwindcss /> },
       ]
     },
     {
       title: 'Backend',
       icon: <FaNodeJs />,
       skills: [
-        { name: 'Node.js', icon: <FaNodeJs />, level: 85 },
-        { name: 'Express.js', icon: <SiExpress />, level: 80 },
-        { name: 'REST APIs', icon: <FaCode />, level: 88 },
+        { name: 'Node.js', icon: <FaNodeJs /> },
+        { name: 'Express.js', icon: <SiExpress /> },
+        { name: 'REST APIs', icon: <FaCode /> },
       ]
     },
     {
       title: 'Database & Tools',
       icon: <FaCode />,
       skills: [
-        { name: 'MongoDB', icon: <SiMongodb />, level: 80 },
-        { name: 'MySQL', icon: <SiMysql />, level: 75 },
-        { name: 'Postman', icon: <SiPostman />, level: 85 },
-        { name: 'Git', icon: <FaGitAlt />, level: 85 },
-        { name: 'GitHub', icon: <FaGithub />, level: 90 },
-        { name: 'VS Code', icon: <FaCode />, level: 95 },
+        { name: 'MongoDB', icon: <SiMongodb /> },
+        { name: 'MySQL', icon: <SiMysql /> },
+        { name: 'Postman', icon: <SiPostman /> },
+        { name: 'Git', icon: <FaGitAlt /> },
+        { name: 'GitHub', icon: <FaGithub /> },
+        { name: 'VS Code', icon: <FaCode /> },
       ]
     }
   ];
@@ -65,20 +65,8 @@ const Skills = () => {
               <div className="category-skills">
                 {category.skills.map((skill, skillIndex) => (
                   <div key={skillIndex} className="skill-item">
-                    <div className="skill-header">
-                      <div className="skill-name">
-                        <span className="skill-icon">{skill.icon}</span>
-                        {skill.name}
-                      </div>
-                      <span className="skill-percent">{skill.level}%</span>
-                    </div>
-
-                    <div className="skill-bar">
-                      <div 
-                        className="skill-progress"
-                        style={{ width: `${skill.level}%` }}
-                      ></div>
-                    </div>
+                    <span className="skill-icon">{skill.icon}</span>
+                    <span className="skill-name">{skill.name}</span>
                   </div>
                 ))}
               </div>
