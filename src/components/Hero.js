@@ -32,7 +32,7 @@ const Hero = () => {
             />
           </div>
           <p className="hero-description">
-            Building scalable web applications using the MERN stack. Passionate about creating 
+            Building scalable web applications using the MERN stack. Passionate about creating
             efficient, user-friendly solutions with modern technologies.
           </p>
 
@@ -42,7 +42,8 @@ const Hero = () => {
               View Projects
               <FaArrowDown aria-hidden="true" />
             </a>
-            <a href="/resume.pdf" download="Maitri_Patel_Resume.pdf" className="btn btn-secondary" aria-label="Download my resume">
+            <a href="https://drive.google.com/uc?export=download&id=1Jvb6GhuzbPokv3FFdwnx01SAafqa2Q9z" target="_blank"
+              rel="noopener noreferrer" className="btn btn-secondary" aria-label="Download my resume">
               Download Resume
               <FaFileDownload aria-hidden="true" />
             </a>
@@ -50,19 +51,19 @@ const Hero = () => {
 
           {/* Social Links */}
           <div className="hero-social" aria-label="Social media links">
-            <a 
-              href="https://github.com/pMaitri01" 
-              target="_blank" 
-              rel="noopener noreferrer" 
+            <a
+              href="https://github.com/pMaitri01"
+              target="_blank"
+              rel="noopener noreferrer"
               className="social-btn"
               aria-label="Visit my GitHub profile"
             >
               <FaGithub aria-hidden="true" />
             </a>
-            <a 
-              href="https://linkedin.com" 
-              target="_blank" 
-              rel="noopener noreferrer" 
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
               className="social-btn"
               aria-label="Visit my LinkedIn profile"
             >
@@ -75,9 +76,9 @@ const Hero = () => {
         <div className="hero-image">
           <div className="profile-circle">
             <div className="profile-inner">
-              <img 
-                src={profilePic} 
-                alt="Maitri Patel - Professional portrait" 
+              <img
+                src={profilePic}
+                alt="Maitri Patel - Professional portrait"
                 className="profile-pic"
                 loading="lazy"
               />
