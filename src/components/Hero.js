@@ -42,7 +42,7 @@ const Hero = () => {
               View Projects
               <FaArrowDown aria-hidden="true" />
             </a>
-            <a href="https://drive.google.com/uc?export=download&id=1Jvb6GhuzbPokv3FFdwnx01SAafqa2Q9z" target="_blank"
+            <a href="https://drive.google.com/uc?export=download&id=15mKcGhNjVdaqR2W2Jmqe864wEAPN0QFj" target="_blank"
               rel="noopener noreferrer" className="btn btn-secondary" aria-label="Download my resume">
               Download Resume
               <FaFileDownload aria-hidden="true" />
